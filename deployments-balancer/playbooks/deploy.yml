@@ -34,3 +34,4 @@
         backend: habackend
       delegate_to: "{{ item }}"
       with_items: "{{ groups.balancer }}"
+#sample
